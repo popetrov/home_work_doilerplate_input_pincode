@@ -1,5 +1,5 @@
 {
-  "name": "Webpack",
+  "name": "webpack-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "pincode-input": "^0.4.3"
+  }
 }
