@@ -1,7 +1,6 @@
 import { test } from './test.js';
 import PincodeInput from 'pincode-input';
 import 'pincode-input/dist/pincode-input.min.css';
-// let pinCode = '';
 
 new PincodeInput('#demo', {
 	count: 4,
